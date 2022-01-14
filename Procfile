@@ -1,0 +1,1 @@
+worker: python samurai_main.py
