@@ -32,7 +32,7 @@ async def change_menu(message: types.Message):
     
     
 async def change_info(message: types.Message):
-    await message.reply("Каку информацию вы хотите изменить?", reply_markup=admin_keyboard.change_info())
+    await message.reply("Какую информацию вы хотите изменить?", reply_markup=admin_keyboard.change_info())
 
     
 async def fsm_start(message: types.Message):
